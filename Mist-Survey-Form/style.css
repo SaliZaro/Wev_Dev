@@ -1,0 +1,19 @@
+*{
+    margin: 0px;
+}
+.aaaa{
+    background-color: rgb(88, 46, 46);
+    color: #6e6e6e;
+}
+body{
+    background-color: coral;
+}
+h1{
+    background-color: burlywood;
+    padding: 0.50em;
+    background-image: linear-gradient(yellow, coral);
+}
+.form_elements{
+    padding-left: 30%;
+    background-color: blanchedalmond;
+}

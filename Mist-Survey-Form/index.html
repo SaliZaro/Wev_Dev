@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student-Info-form</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        label, label > span{
+            background-color: rgb(187, 162, 99);   /*label identifier*/
+        }
+        button{
+            padding-right: 3%;
+        }
+        button:hover{
+            transition:cubic-bezier(0.075, 0.82, 0.165, 1);
+            transition-delay: 0.1s;
+            font-size: x-large;
+            background-color: blanchedalmond;
+        }
+        input:hover{
+            background-color: blanchedalmond;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;text-decoration: underline;"><img height="80uv" src="logo.png" alt="Student Form"></h1><br><br>
+    <div id="form_elements" style="text-align: center;"><form action="get" >
+        <span>
+            <label for="Fname" style="font-size: larger;">Enter first name</label><br>
+            <input type="text" class="aaaa" id="Fname" placeholder="Spongebob"><br><br>
+            <label for="Lname" style="font-size: larger;">Enter last name</label><br>
+            <input type="text" class="aaaa" id="Lname" placeholder="Squarepants"><br><br>
+            <label for="Age" style="font-size: larger;">Enter age</label><br>
+            <input type="number" class="aaaa" id="Age"><br><br>
+            <label for="gender"><span style="font-size: larger;">Enter your Gender:-</span></label>
+            <select id="gender" name="gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option></select><br><br>
+                <label for="Contact_Num" style="font-size: larger;">Enter Phone-Number</label><br>
+                <input type="number" class="aaaa" id="Contact"><br><br>
+            </select>
+        </span>
+    </form></div>
+    <div style="text-align: center;">
+        <button>Submit</button>
+        <button>Reset</button>
+    </div>
+</body>
+</html>
